@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
-  replicas: 1 # run two replicas of the following template
+  replicas: 5 # run two replicas of the following template
   template:
     metadata:
       labels:
